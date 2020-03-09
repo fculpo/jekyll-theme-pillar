@@ -7,9 +7,9 @@
                 <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">{{ header.name }}</h1>
                 <div class="title mb-3">{{ header.tagline }}</div>
                 <ul class="list-unstyled">
-                    <li class="mb-2"><a href="#"><i class="far fa-envelope fa-fw mr-2"
+                    <li class="mb-2"><a href="mailto:{{ header.email }}"><i class="far fa-envelope fa-fw mr-2"
                                 data-fa-transform="grow-3"></i>{{ header.email }}</a></li>
-                    <li><a href="#"><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>{{ header.phone }}</a></li>
+                    <li><a href="tel:{{ header.phone }}"><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>{{ header.phone }}</a></li>
                 </ul>
             </div>
             <!--//primary-info-->
