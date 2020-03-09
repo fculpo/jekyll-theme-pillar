@@ -1,0 +1,38 @@
+---
+#Add "layout: compress" here to compress the html code
+---
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+{% include head.html %}
+
+<body>
+  <article class="resume-wrapper text-center position-relative">
+    <div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
+      {% include header.html %}
+      <div class="resume-body p-5">
+        {% include summary.html %}
+        <div class="row">
+          <div class="col-lg-9">
+              {% include experience.html %}
+          </div>
+          <div class="col-lg-3">
+              {% include skills.html %}
+              {% include education.html %}
+              {% include awards.html %}
+              {% include language.html %}
+              {% include interests.html %}
+          </div>
+        </div>
+        <!--//row-->
+      </div>
+    </div>
+  </article>
+
+  {% include footer.html %}
+</body>
+
+</html>
