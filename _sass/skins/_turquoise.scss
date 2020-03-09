@@ -1,0 +1,25 @@
+/*!
+ * Template Name: Pillar - Bootstrap 4 Resume/CV Template for Developers
+ * Version: 1.0.1
+ * Author: Xiaoying Riley
+ * Copyright: 3rd Wave Media
+ * Twitter: @3rdwave_themes
+ * License: Creative Commons Attribution 3.0 License
+ * Website: http://themes.3rdwavemedia.com/
+*/
+
+// Define theme colour scheme
+$theme-color-primary: #328998;
+$theme-text-color-primary: #434E5E;
+$theme-text-color-secondary: lighten($theme-text-color-primary, 10%);
+$theme-text-color-light: lighten($theme-text-color-primary, 40%);
+$theme-border-color:  lighten($theme-text-color-primary, 10%);
+$theme-divider-color: lighten($theme-text-color-primary, 10%);
+$theme-bg-light: #F7F8FA;
+$theme-bg-dark: $theme-text-color-primary;
+
+// Create variables to override the default value for variables used in the Bootstrap SCSS files.
+$theme-colors: (
+  "primary":  $theme-color-primary,
+  "secondary":  $theme-text-color-secondary,
+);

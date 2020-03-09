@@ -1,0 +1,10 @@
+{% assign summary = site.data.data.summary %}
+{% if summary %}
+<section class="resume-section summary-section mb-5">
+    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Career Profile</h2>
+    <div class="resume-section-content">
+        <p class="mb-0">{{ summary }}</p>
+    </div>
+</section>
+<!--//summary-section-->
+{% endif %}

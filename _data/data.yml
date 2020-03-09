@@ -1,0 +1,248 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+header:
+  # Profile information
+  name: Steve Doe
+  tagline: Full Stack Developer
+  avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  email: steve.doe@website.com
+  phone: 0123 456 78900
+  website: https://yourwebsite.com
+  linkedin: stevedoe
+  github: stevedoe
+  gitlab:
+  bitbucket:
+  twitter: "@stevedoe"
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+
+languages:
+  - idiom: English
+    level: Native
+  - idiom: French
+    level: Professional
+  - idiom: Spanish
+    level: Professional
+
+interests:
+  - name: Climbing
+    link:
+  - name: Snowboarding
+    link:
+  - name: Cooking
+    link:
+
+summary: |
+  Summarise your career here. You can make a PDF version of your resume using our free Sketch template here.
+  Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+  Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+  Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+  Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget.
+
+education:
+  - degree: MSc in Computer Science
+    university: University of London
+    time: 2011 - 2012
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+        - Bullet point
+        - Bullet point
+  - degree: BSc in Applied Mathematics
+    university: Bristol University
+    time: 2007 - 2011
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+        - Bullet point
+        - Bullet point
+
+experiences:
+  - role: Lead Developer
+    time: 2018 - Present
+    company: Startup Hub
+    details: |
+      Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit.
+      Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+      Donec pede justo, fringilla vel.
+        - Bullet point
+        - Bullet point
+    achievements:
+      desc: |
+        Praesentium voluptatum deleniti atque corrupti quos dolores et quas
+        molestias excepturi sint occaecati cupiditate non provident.
+      highlights:
+        - Lorem ipsum dolor sit amet, 80% consectetuer adipiscing elit.
+        - At vero eos et accusamus et iusto odio dignissimos.
+        - Blanditiis praesentium voluptatum deleniti atque corrupti.
+        - Maecenas tempus tellus eget.
+    technologies:
+      - Angular
+      - Python
+      - jQuery
+      - Webpack
+      - HTML/SASS
+      - PostgresSQL
+
+  - role: Senior Software Developer
+    time: 2014 - 2018
+    company: Google
+    details: |
+      Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit.
+      Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel.
+    achievements:
+      desc: |
+        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+    technologies:
+      - React
+      - Redux
+      - Django
+      - Webpack
+      - HTML/SASS
+      - MySQL
+
+  - role: Co-Founder & Lead Developer
+    time: 2012 - 2014
+    company: To-do Lists
+    details: |
+      Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit.
+      Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec.
+
+      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes.
+    technologies:
+      - Django
+      - JavaScript
+      - Node.js
+      - Require.js
+      - HTML/SASS
+
+  - role: Web Developer
+    subrole: Intern
+    time: 2011 - 2012
+    company: Amazon
+    details: |
+      Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit.
+      Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec. Fusce vulputate eleifend sapien.
+      Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus.
+      Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum.
+    technologies:
+      - Ruby on Rails
+      - jQuery
+      - HTML/LESS
+      - MongoDB
+
+awards:
+  - name: Award Name Lorem
+    description: |
+      Award desc goes here, ultricies nec, pellentesque
+      eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.
+  - name: Award Name Lorem
+    description: |
+      Award desc goes here, ultricies nec, pellentesque
+      eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.
+
+# Projects are not used in this template for now
+projects:
+  title: Projects
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+    - title: DevStudio
+      link: "#"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
+
+    - title: Tempo
+      link: "#"
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+    - title: Atom
+      link: "#"
+      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+    - title: Delta
+      link: "#"
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# Publications are not used in this template for now
+publications:
+  title: Publications
+  intro: |
+    You can list your publications in this section. Lorem ipsum dolor sit
+    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    bibendum fringilla a eu lectus.
+  papers:
+    - title: The Art of Computer Programming
+      link: "#"
+      authors: Donald E. Knuth
+      conference: Addison-Wesley, 1968
+
+    - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+      link: "#"
+      authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+      conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+    - title: A syntax directed compiler for Algol 60
+      link: "#"
+      authors: Edgar T. Irons
+      conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+  - category: Frontend
+    tools:
+      - name: Angular
+        level: 98%
+      - name: React
+        level: 98%
+      - name: JavaScript
+        level: 98%
+      - name: Node.js
+        level: 95%
+      - name: HTML/CSS/SASS/LESS
+        level: 85%
+  - category: Backend
+    tools:
+      - name: Python/Django
+        level: 95%
+      - name: Ruby/Rails
+        level: 98%
+      - name: PHP
+        level: 87%
+      - name: WordPress/Shopify
+        level: 92%
+  - category: others
+    tools:
+      - DevOps
+      - Code Review
+      - Git
+      - Unit Testing
+      - Wireframing
+      - Sketch
+      - Balsamiq
+      - WordPress
+      - Shopify

@@ -1,0 +1,61 @@
+{% assign experiences = site.data.data.experiences %}
+{% if experiences %}
+<section class="resume-section experience-section mb-5">
+    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Work Experience</h2>
+    <div class="resume-section-content">
+        <div class="resume-timeline position-relative">
+            {% for experience in experiences %}
+            <article class="resume-timeline-item position-relative pb-5">
+                <div class="resume-timeline-item-header mb-2">
+                    <div class="d-flex flex-column flex-md-row">
+                        <h3 class="resume-position-title font-weight-bold mb-1">
+                            {{ experience.role }}
+                            {% if experience.subrole %}
+                            <small class="text-muted">({{ experience.subrole }})</small>
+                            {% endif %}
+                        </h3>
+                        <div class="resume-company-name ml-auto">{{ experience.company }}</div>
+                    </div>
+                    <!--//row-->
+                    <div class="resume-position-time">{{ experience.time }}</div>
+                </div>
+                <!--//resume-timeline-item-header-->
+                <div class="resume-timeline-item-desc">
+                    {% if experience.details %}
+                    <p>{{ experience.details | markdownify }}</p>
+                    {% endif %}
+                    {% if experience.achievements %}
+                    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements:</h4>
+                    {% if experience.achievements.desc %}
+                    <p>{{ experience.achievements.desc }}</p>
+                    {% endif %}
+                    {% if experience.achievements.highlights %}
+                    <ul>
+                        {% for highlight in experience.achievements.highlights %}
+                        <li>{{ highlight }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                    {% endif %}
+                    {% if experience.technologies %}
+                    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+                    <ul class="list-inline">
+                        {% for technology in experience.technologies %}
+                        <li class="list-inline-item">
+                            <span class="badge badge-primary badge-pill">{{ technology }}</span>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </div>
+                <!--//resume-timeline-item-desc-->
+
+            </article>
+            <!--//resume-timeline-item-->
+            {% endfor %}
+        </div>
+        <!--//resume-timeline-->
+    </div>
+</section>
+<!--//experience-section-->
+{% endif %}

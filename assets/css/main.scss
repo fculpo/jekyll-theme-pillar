@@ -1,0 +1,6 @@
+---
+---
+@charset "utf-8";
+
+@import "skins/{{ site.theme_skin | default: 'gray' }}"; // skin
+@import "default"; // main partials

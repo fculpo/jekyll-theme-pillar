@@ -1,0 +1,115 @@
+{% assign header = site.data.data.header %}
+<header class="resume-header pt-4 pt-md-0">
+    <div class="media flex-column flex-md-row">
+        <img class="mr-3 img-fluid picture mx-auto" src="assets/images/{{ header.avatar }}" alt="">
+        <div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
+            <div class="primary-info">
+                <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">{{ header.name }}</h1>
+                <div class="title mb-3">{{ header.tagline }}</div>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#"><i class="far fa-envelope fa-fw mr-2"
+                                data-fa-transform="grow-3"></i>{{ header.email }}</a></li>
+                    <li><a href="#"><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>{{ header.phone }}</a></li>
+                </ul>
+            </div>
+            <!--//primary-info-->
+            <div class="secondary-info ml-md-auto mt-2">
+                <ul class="resume-social list-unstyled">
+                {% if header.linkedin %}
+                    <li class="mb-3">
+                        <a href="https://linkedin.com/in/{{ header.linkedin }}">
+                            <span class="fa-container text-center mr-2">
+                                <i class="fab fa-linkedin-in fa-fw"></i>
+                            </span>
+                            {{ header.linkedin }}
+                        </a>
+                    </li>
+                {% endif %}
+                {% if header.github %}
+                    <li class="mb-3">
+                        <a href="https://github.com/{{ header.github }}">
+                            <span class="fa-container text-center mr-2">
+                                <i class="fab fa-github-alt fa-fw"></i>
+                            </span>
+                            {{ header.github }}
+                        </a>
+                    </li>
+                {% endif %}
+                {% if header.gitlab %}
+                    <li class="mb-3">
+                        <a href="https://gitlab.com/{{ header.gitlab }}">
+                            <span class="fa-container text-center mr-2">
+                                <i class="fab fa-gitlab fa-fw"></i>
+                            </span>
+                            {{ header.gitlab }}
+                        </a>
+                    </li>
+                {% endif %}
+                {% if header.bitbucket %}
+                    <li class="mb-3">
+                        <a href="https://bitbucket.com/{{ header.bitbucket }}">
+                            <span class="fa-container text-center mr-2">
+                                <i class="fab fa-bitbucket fa-fw"></i>
+                            </span>
+                            {{ header.bitbucket }}
+                        </a>
+                    </li>
+                {% endif %}
+                {% if header.stack-overflow %}
+                    <li class="mb-3">
+                        <a href="https://stackoverflow.com/users/{{ header.stack-overflow }}">
+                            <span class="fa-container text-center mr-2">
+                                <i class="fab fa-stack-overflow fa-fw"></i>
+                            </span>
+                            {{ header.stack-overflow }}
+                        </a>
+                    </li>
+                {% endif %}
+                {% if header.twitter %}
+                    <li class="mb-3">
+                        <a href="https://twitter.com/{{ header.twitter }}">
+                            <span class="fa-container text-center mr-2">
+                                <i class="fab fa-twitter fa-fw"></i>
+                            </span>
+                            {{ header.twitter }}
+                        </a>
+                    </li>
+                {% endif %}
+                {% if header.codewars %}
+                    <li class="mb-3">
+                        <a href="https://www.codewars.com/users/{{ header.codewars }}/completed_solutions">
+                            <span class="fa-container text-center mr-2">
+                                <i class="fas fa-code fa-fw"></i>
+                            </span>
+                            {{ header.codewars }}
+                        </a>
+                    </li>
+                {% endif %}
+                {% if header.goodreads %}
+                    <li class="mb-3">
+                        <a href="https://www.goodreads.com/user/show/{{ header.goodreads }}">
+                            <span class="fa-container text-center mr-2">
+                                <i class="fab fa-goodreads-g fa-fw"></i>
+                            </span>
+                            {{ header.goodreads }}
+                        </a>
+                    </li>
+                {% endif %}
+                {% if header.website %}
+                    <li class="mb-3">
+                        <a href="{{ header.website }}">
+                            <span class="fa-container text-center mr-2">
+                                <i class="fas fa-globe"></i>
+                            </span>
+                            {{ header.website }}
+                        </a>
+                    </li>
+                {% endif %}
+                </ul>
+            </div>
+            <!--//secondary-info-->
+        </div>
+        <!--//media-body-->
+    </div>
+    <!--//media-->
+</header>
