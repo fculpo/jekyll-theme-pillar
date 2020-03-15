@@ -1,12 +1,38 @@
-#Update all the sections by editing the data.yml file inside _data folder.
+# Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
+
+# SEO plugin
 title: My Resume
+author: Steve Doe
+tagline: Full Stack Developer # Short description for jekyll-seo-tag
+description: A beautiful Jekyll theme for creating resume # Longer description for jekyll-seo-tag
+
 url: "https://fculpo.github.io"
-baseurl: "/jekyll-theme-pillar" #change it according to your repository name
-description: A beautiful Jekyll theme for creating resume
+baseurl: "/jekyll-theme-pillar" # change it according to your repository name
+
+twitter:
+  username: stevedoe123
+  card: summary
+
+social:
+  links:
+    - https://twitter.com/stevedoe123
+    - https://www.facebook.com/stevedoe123
+    - https://www.linkedin.com/in/stevedoe123
+    - https://github.com/stevedoe123
+    - https://keybase.io/stevedoe123
+
+google_site_verification: # Put your google verification tag here
+
+# End SEO
+
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: gray # gray blue turquoise green berry red
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Sass/SCSS
 sass:
@@ -21,8 +47,3 @@ compress_html: # - http://jch.penibelst.de/
   clippings: all
   ignore:
     envs: development
-
-# Development Settings
-port: 4000
-host: 0.0.0.0
-safe: false
