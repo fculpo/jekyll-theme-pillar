@@ -9,7 +9,7 @@ tagline: Full Stack Developer # Short description for jekyll-seo-tag
 description: A beautiful Jekyll theme for creating resume # Longer description for jekyll-seo-tag
 
 url: "https://fculpo.github.io"
-baseurl: "/jekyll-theme-pillar" # change it according to your repository name
+baseurl: "/resume" # change it according to your repository name
 
 twitter:
   username: stevedoe123
