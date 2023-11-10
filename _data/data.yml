@@ -232,15 +232,12 @@ skills:
       - name: HTML/CSS/SASS/LESS
         level: 85%
   - category: Backend
+    show-level: False # Default true
     tools:
-      - name: Python/Django
-        level: 95%
-      - name: Ruby/Rails
-        level: 98%
-      - name: PHP
-        level: 87%
-      - name: WordPress/Shopify
-        level: 92%
+      - Python/Django
+      - Ruby/Rails
+      - PHP
+      - WordPress/Shopify
   - category: others
     tools:
       - DevOps
