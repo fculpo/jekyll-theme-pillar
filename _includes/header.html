@@ -9,7 +9,9 @@
                 <ul class="list-unstyled">
                     <li class="mb-2"><a href="mailto:{{ header.email }}"><i class="far fa-envelope fa-fw mr-2"
                                 data-fa-transform="grow-3"></i>{{ header.email }}</a></li>
+                    {% if header.phone %}
                     <li><a href="tel:{{ header.phone }}"><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>{{ header.phone }}</a></li>
+                    {% endif %}
                 </ul>
             </div>
             <!--//primary-info-->
