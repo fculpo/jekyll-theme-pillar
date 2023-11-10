@@ -4,7 +4,13 @@
         <img class="mr-3 img-fluid picture mx-auto" src="assets/images/{{ header.avatar }}" alt="">
         <div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
             <div class="primary-info">
-                <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">{{ site.author }}</h1>
+                {% if header.capitalize-author %}
+                <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">
+                {% else %}
+                <h1 class="name mt-0 mb-1 text-white">
+                {% endif %}
+                    {{ site.author }}
+                </h1>
                 <div class="title mb-3">{{ site.tagline }}</div>
                 <ul class="list-unstyled">
                     <li class="mb-2"><a href="mailto:{{ header.email }}"><i class="far fa-envelope fa-fw mr-2"
