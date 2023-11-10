@@ -2,6 +2,9 @@
 # Be aware that even a small syntax error here can lead to failures in output.
 #
 
+head:
+  show-shortcut-icon: True # Default True, set to False to hide the shourtcut icon
+
 header:
   # Profile information
   avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below

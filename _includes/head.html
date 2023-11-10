@@ -1,6 +1,5 @@
+{% assign head = site.data.data.head %}
 <head>
-
-
   <!-- Meta -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,8 +10,10 @@
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
 
+  {% if head.show-shortcut-icon != false %}
   <!-- Favicon -->
   <link rel="shortcut icon" href="favicon.ico">
+  {% endif %}
 
   <!-- FontAwesome JS-->
   <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js"
