@@ -2,6 +2,9 @@
 # Be aware that even a small syntax error here can lead to failures in output.
 #
 
+layout:
+  show-awards-in-right-column: True # Default True to show the awards in the right columns.
+
 head:
   show-shortcut-icon: True # Default True, set to False to hide the shourtcut icon
 
